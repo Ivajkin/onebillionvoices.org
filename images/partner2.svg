@@ -1,0 +1,5 @@
+<!-- partner1.svg -->
+<svg width="150" height="50" xmlns="http://www.w3.org/2000/svg">
+  <rect width="150" height="50" fill="#e0e0e0"/>
+  <text x="75" y="30" font-size="18" fill="#666" text-anchor="middle" font-family="Arial, sans-serif">Partner 2</text>
+</svg>

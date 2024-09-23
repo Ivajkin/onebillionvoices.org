@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Billion Voices - Unite for Our Planet's Future</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Join the One Billion Voices initiative to unite people worldwide in taking action for a sustainable future.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="One Billion Voices - Unite for Our Planet's Future">
+    <meta property="og:description" content="Join the movement to mobilize one billion people for a sustainable future.">
+    <meta property="og:image" content="https://onebillionvoices.org/og-image.jpg">
+    <meta property="og:url" content="https://onebillionvoices.org">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.svg" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <!-- Analytics Script -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Replace 'UA-XXXXXX-X' with your site's Analytics ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-XXXXXX-X');
+    </script>
+</head>
+<body>
+<!-- Header Section -->
+<header>
+    <nav>
+        <div class="logo">
+            <a href="#">OneBillionVoices.org</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#action">Take Action</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="#join">Join Us</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+    <div class="header-content">
+        <h1>Be One in a Billion</h1>
+        <p>Together, we can create a sustainable future. Join the movement to mobilize one billion voices for our planet.</p>
+        <a href="#join" class="cta-button">Join the Movement</a>
+        <p class="joined-count"><span id="counter">245,678</span> people have joined so far.</p>
+    </div>
+</header>
+<!-- Main Content -->
+<main>
+    <!-- Mission Section -->
+    <section id="mission" class="section">
+        <h2>Our Mission</h2>
+        <p>We are the last generation that can prevent irreversible damage to our planet. Our mission is to unite one billion people in taking meaningful action towards sustainability within the next year.</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <!-- Action Steps Section -->
+    <section id="action" class="section">
+        <h2>How You Can Make a Difference</h2>
+        <div class="steps">
+            <div class="step">
+                <img src="images/pledge.svg" alt="Take the Pledge">
+                <h3>Take the Pledge</h3>
+                <p>Commit to making sustainable choices in your daily life.</p>
+            </div>
+            <div class="step">
+                <img src="images/share.svg" alt="Spread the Word">
+                <h3>Spread the Word</h3>
+                <p>Share our message using #OneBillionVoices on social media.</p>
+            </div>
+            <div class="step">
+                <img src="images/engage.svg" alt="Engage Locally">
+                <h3>Engage Locally</h3>
+                <p>Participate in community initiatives or start your own.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Partners Section -->
+    <section id="partners" class="section">
+        <h2>Our Partners</h2>
+        <p>We are proud to collaborate with global organizations committed to sustainability.</p>
+        <div class="partners-logos">
+            <img src="images/partner1.svg" alt="Partner 1">
+            <img src="images/partner2.svg" alt="Partner 2">
+            <img src="images/partner3.svg" alt="Partner 3">
+            <!-- Add more partner logos as needed -->
+        </div>
+    </section>
+    <!-- Join Section -->
+    <section id="join" class="section join-section">
+        <h2>Join the Movement</h2>
+        <p>Sign up to receive updates and action steps you can take to make a difference.</p>
+        <form action="#" method="post" class="signup-form">
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p class="privacy-note">We respect your privacy. Unsubscribe at any time.</p>
+    </section>
+</main>
+<!-- Footer Section -->
+<footer>
+    <div class="social-media">
+        <a href="https://facebook.com/onebillionvoices" target="_blank">Facebook</a>
+        <a href="https://twitter.com/onebillionvoices" target="_blank">Twitter</a>
+        <a href="https://instagram.com/onebillionvoices" target="_blank">Instagram</a>
+        <a href="https://tiktok.com/@onebillionvoices" target="_blank">TikTok</a>
+    </div>
+    <p>&copy; 2023 One Billion Voices. All rights reserved.</p>
+</footer>
+<!-- JavaScript for Mobile Menu Toggle -->
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        menuToggle.classList.toggle('active');
+    });
+</script>
+</body>
+</html>
